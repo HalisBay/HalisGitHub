@@ -16,13 +16,13 @@ public class Main {
 		student.setEmail("eminbay_58@hotmail.com");  
 		student.setPhoneNumber("1111111111");  
 		student.setCourse("Java & React");  
-		student.setAddress("İstanbul");
+		student.setAddress("Ä°stanbul");
 		student.setAuthorize(false); 
 		
 		
 		instructor.setId(2); 
 		instructor.setFirstName("Engin");  
-		instructor.setLastName("Demiroğ");  
+		instructor.setLastName("Demirog");  
 		instructor.setEmail("engindemirogreiss@hotmail.com");  
 		instructor.setPhoneNumber("333333333333333"); 
 		instructor.setAddress("Ankara"); 
@@ -31,7 +31,7 @@ public class Main {
 		Student[] students = {student};
 		User[] users = {student,instructor};
 		
-        userManager.addMultiple(users);
+                userManager.addMultiple(users);
 		studentManager.addCourse(students);
 		
 		
