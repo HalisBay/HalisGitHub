@@ -7,7 +7,7 @@ public class StudentManager  {
 		for(Student student:students) 
 		{
 		System.out.println("Sevgili, "+student.getFirstName()+ " "
-		+student.getCourse()  +" kampýna Kaydýnýz baþarýyla  yapýlmýþtýr.");
+		+student.getCourse()  +" kampÄ±na KaydÄ±nÄ±z baÅŸarÄ±yla  yapÄ±lmÄ±ÅŸtÄ±r.");
 		}
 		
 	}
